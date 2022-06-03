@@ -21,10 +21,15 @@
 
 <body>
     <h1>Olá, Mundo!</h1>
-    <p>Já me livrei da maldição</p>
+    <p>Já me livrei da maldição!!</p>
     <script>
-        var nome = window.prompt('Qual é o seu nome?') //Vai perguntar o nome
-        window.alert('É um prazer te conhecer, ' + nome + '!') //Concatenação
+        var n1 = Number.parseFloat(window.prompt('Digite um número: '))
+        var n2 = Number.parseFloat(window.prompt('Digite outro número: '))
+        var s = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}.`)
+        //(number + number) Adição
+        //(string + string) Cocatenação
+        // ${s} Usa template String
 
     </script>
 
