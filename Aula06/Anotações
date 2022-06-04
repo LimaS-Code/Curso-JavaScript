@@ -1,0 +1,29 @@
+n.parseint
+n.parsefloat(n)
+number(n)
+String(n)
+n.toString
+
+
+S.length  //Quantos caractéres a string possui
+S.toUppercase() // Tudo para maiúsculo
+s.toLowercase() // Tudo para minúsculo
+
+n.toFixed() // arredonda o número pra cima e escolhe o número de casas decimais
+n.toFixed().replace('','') // Reposiciona algo
+n.toScalestring('pt-BR', {style: 'currency', currency: 'BRL'})
+
+<Conjunção(&&)>
+True True = True
+True False = False
+False True = False
+False False = False
+
+<Disjunção(||)>
+True True = True
+True False = True
+False True = True
+False False = False
+
+<Ternário>
+teste? True : False
